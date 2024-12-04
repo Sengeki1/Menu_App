@@ -5,13 +5,14 @@
     <item
         android:id="@+id/option_settings"
         android:orderInCategory="30"
-        android:icon="@drawable/favorite_background"
+        android:icon="@drawable/settings_foreground"
         app:showAsAction="ifRoom"
         android:title="Settings" />
     <item
         android:id="@+id/option_favorites"
         android:orderInCategory="20"
-        android:icon="@drawable/settings_background"
+        android:icon="@drawable/favorite_foreground"
         app:showAsAction="ifRoom"
         android:title="Favorites" />
+
 </menu>
